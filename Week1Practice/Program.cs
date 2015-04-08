@@ -181,6 +181,7 @@ namespace Week1Practice
         static void DoubleIt(int number)
         {
             Console.WriteLine(number + " doubled is " + (number * 2));
+            //Console.WriteLine("{0} doubled is {1}", number + (number * 2))
         }
         // 5. Call your DoubleIt Function by passing in 1337 as your parameter.
         // 6. Call your DoubleIt function by passing in myAge as your parameter.
@@ -206,6 +207,7 @@ namespace Week1Practice
                 {
                     Console.WriteLine(i + startNum);
                     Console.WriteLine("I'm looping from " + startNum + " to " + endNum + ".");
+                    //Console.Writeline("I'm looping from {0} to {1}", startNum, endNum);
                 }
         }
         // 11. Call your LoopThis function by passing in 20 and 30 as your parameters.
